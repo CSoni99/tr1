@@ -1,0 +1,15 @@
+
+# Secrets and credentials (added by secret-scan hardening)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+.streamlit/secrets.toml
+secrets.toml
+serviceAccount*.json
+credentials*.json
+*.tfstate
